@@ -1,0 +1,10 @@
+<div>
+    <label>First Name:</label>
+    <input type="text" [(ngModel)]="fname"><br>
+    <label>Last Name:</label>
+    <input type="text" [(ngModel)]="lname"><br>
+    <label>Phone:</label>
+    <input type="text" [(ngModel)]="phone"><br>
+    <button type="submit" (click)="addContact()" routerLink="/show" routerLinkActive="active">Add</button>
+</div>
+

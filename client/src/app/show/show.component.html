@@ -1,0 +1,9 @@
+<table border="1px black solid">
+    <tr *ngFor="let contact of Contacts">
+        <td>{{contact._id}}</td>
+        <td>{{contact.fname}}</td>
+        <td>{{contact.lname}}</td>
+        <td>{{contact.phone}}</td>
+        <td><button type="submit" (click)="delContact(contact._id)">Delete</button></td>
+    </tr>
+</table>
